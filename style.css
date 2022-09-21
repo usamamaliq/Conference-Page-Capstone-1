@@ -1,0 +1,160 @@
+
+body {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  font-family: "Lato", sans-serif
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.black {
+  color: #272a31;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+.home-page {
+  background-image: url("./assets/bg-img-mbl.png");
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 12px;
+}
+
+#ham-icon {
+  color: #272a31;
+  margin: 10px;
+}
+
+.menu-desktop {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(247, 247, 249);
+  color: #3a4a42;
+  position: fixed;
+  z-index: 999;
+  padding: 28px;
+  transform: translateX(100%);
+  transition: all 0.25s ease-in-out;
+}
+
+.h-title {
+  width: 100vw;
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 5vw;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-top: 60px;
+}
+
+.title {
+  background-image: url(./assets/textBg.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+  font-size: 13vw;
+  width: 100vw;
+  height: 100vh
+  line-height: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.bg-text {
+background-color: #d3d3d3;
+background-color: rgba(245, 238, 238, 0.5);
+}
+
+#detail-text {
+  color: #272a31;
+  font-size: 3.5vw;
+  opacity: 1;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+.schedule-text {
+  font-weight: bold;
+  font-size: 7vw;
+  margin-bottom: 0;
+}
+
+.location-text {
+  margin-top: 0;
+  font-size: 3.5vw;
+}
+
+.main-program {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mp-title-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mp-title {
+  margin-top: 25px;
+  font-weight: 100;
+}
+
+.mp-hline {
+  width: 60px;
+  color: #ec5242;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  margin: 24px;
+  gap: 20px;
+  background-color: rgba(245, 244, 244, 0.1);
+}
+
+.mp-img {
+  width: 15vw;
+}
+
+.mp-b-title {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.c2 {
+  margin-right: 0;
+}
+.mp-para {
+  font-weight: 400;
+  font-size: 3vw;
+  text-align: left;
+}
+
+.join-telethon-btn {
+  background-color: #ec5242;
+  width: 70vw;
+  height: 20vw;
+  font-size: 6vw;
+  border: 0;
+  margin: 20px 0 40px 0;
+}
