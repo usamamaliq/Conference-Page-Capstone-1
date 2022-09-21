@@ -1,0 +1,237 @@
+html, body {
+    background: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+    /* height: 100vh; */
+    margin: auto;
+    border: auto;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .orange {
+    color: #ec5242;
+  }
+  
+  .black {
+    color: #272a31;
+  }
+  
+  .grey {
+    color: #d3d3d3;
+  }
+
+  .white{
+    color: #fff;
+  }
+  
+  .about-page {
+    background-image: url("./assets/bg-img-mbl.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    padding: 12px;
+    
+  }
+  
+  .a-text-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .a-title-txt {
+    width: 100vw;
+    color: #ec5242;
+    font-weight: 700;
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .a-title {
+    /* background-image: url(./assets/textBg.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin: 0;
+    color: #ec5242;
+    font-weight: 900;
+    font-size: 10vw;
+    /* width: 100vw; */
+    line-height: 10vw;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .a-bg-text {
+  background-color: #d3d3d3;
+  background-color: rgba(245, 238, 238, 0.5);
+  }
+  
+  #a-detail-text {
+    color: #272a31;
+    font-size: 3.5vw;
+    opacity: 1;
+    border: 2px solid #fff;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .contact-text {
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 12px;
+  }
+
+  .email-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5vw;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .logo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mp-hline {
+    margin: 0;
+  }
+
+  .logo-title {
+    font-size: 5vw;
+    margin-bottom: 0;
+  }
+
+  .logo-details-cont {
+    width: 85vw;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .logo-img-cont {
+    width: 80vw;
+    height: 20vh;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-img {
+    width: 65vw;
+  }
+
+  .ps-hline {
+    margin-top: 40px;
+  }
+
+  .past-summits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ps-title {
+    font-size: 5vw;
+    margin-bottom: 0;
+  }
+
+  .ps-img-1 {
+    background-image: url("./assets/telethon-1.jpg");
+  }
+
+  .ps-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 25vh;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overlay {
+    background-color: rgb(236, 82, 66, 0.7);
+    height: 100%;
+  }
+
+  .ps-img-2 {
+    background-image: url("./assets/telethon-2.jpg");
+  }
+
+  .psu-hline
+  {
+    width: 60px;
+    color: #ec5242;
+    background-color: #ec5242;
+    border: 1px solid #ec5242;
+  }
+
+  .ps-desc {
+    width: 80vw;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .partners {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-img-container img {
+    width: 25vw;
+    height: auto;
+    margin: 10px 0 10px 0;
+  }
+
+  .p-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .p-hline {
+    width: 30px;
+    color: #ec5242;
+    background-color: #ec5242;
+    border: 1px solid #ec5242;
+  }
+
+  .p-title {
+    font-size: 5vw;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2vw;
+    margin: 10px 0 15px 0;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .f-img {
+    width: 35vw;
+    height: 15vw;
+  }
+
+  .f-text {
+    font-size: 3.5vw;
+  }
