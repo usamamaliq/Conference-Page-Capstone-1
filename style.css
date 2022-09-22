@@ -184,6 +184,7 @@ background-color: rgba(245, 238, 238, 0.5);
   margin: 24px;
   gap: 20px;
   background-color: rgba(245, 244, 244, 0.1);
+  border: 1px solid transparent;
 }
 
 .card:hover {
@@ -319,6 +320,10 @@ background-color: rgba(245, 238, 238, 0.5);
   align-items: center;
 }
 
+#btn-fs-more:hover {
+  box-shadow: 0 8px 16px #ec5242;
+}
+
 .orange-arrow {
   color: #ec5242;
 }
@@ -351,7 +356,7 @@ background-color: rgba(245, 238, 238, 0.5);
     color: #fff;
     margin: 0;
     gap: 2vw;
-    margin-right: 6.5vw;
+    margin-right: 5.5vw;
     font-size: 1.2vw;
   }
 
@@ -386,7 +391,9 @@ background-color: rgba(245, 238, 238, 0.5);
     font-weight: bold;
     font-size: 1.2vw;
     padding: 10px;
+    border: 3px solid transparent;
   }
+
   .menu-item a:hover {
     border: 3px solid #ec5242;
     color: #ec5242;
@@ -569,7 +576,7 @@ background-color: rgba(245, 238, 238, 0.5);
     }
     
     .fs-detail {
-      font-size: 0.7vw;
+      font-size: 0.8vw;
       margin: 0;
       font-weight: bold;
     }
