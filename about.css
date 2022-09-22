@@ -235,3 +235,192 @@ html, body {
   .f-text {
     font-size: 3.5vw;
   }
+/* Media Query for Desktop Starts from here */
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #fff;
+    margin: auto;
+    border: auto;
+    font-family: "Lato", sans-serif !important;
+    font-style: normal;
+  }
+
+  .about-page {
+    padding: 0;
+    background-image: url("./assets/bg-img-dsk\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+  }
+
+  .home-btn {
+    position: absolute;
+    top: 20vh;
+    right: 3vw;
+  }
+
+  .home-btn:hover {
+    color: #ec5242;
+  }
+
+  .a-title-txt {
+    display: none;
+  }
+  
+  .a-title {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 15vh;
+    margin-bottom: 3vh;
+  }
+  
+  .a-bg-text {
+    margin-top: 3vh;
+  }
+
+  #a-detail-text {
+    font-size: 1.2vw;
+    width: 60vw;
+  }
+
+  .contact-text {
+    font-size: 1.5vw;
+    margin-top: 6vh;
+  }
+
+  .email-text {
+    font-size: 1.5vw;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .logo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mp-hline {
+    margin: 0;
+  }
+
+  .logo-details {
+    background-color: #fff;
+    margin-top: 0.5vh;
+  }
+  .logo-title {
+    font-size: 2.5vw;
+    margin-bottom: 0;
+  }
+
+  .logo-details-cont {
+    width: 80vw;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .logo-img-cont {
+    width: 35vw;
+    height: 25vh;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
+
+  .logo-img {
+    width: 25vw;
+  }
+
+  .ps-hline {
+    margin-top: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .past-summits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .ps-title {
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 5vh;
+  }
+
+  .ps-desc {
+    width: 80vw;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+  .ps-img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  .ps-img-1 {
+    background-image: url("./assets/telethon-1.jpg");
+  }
+
+  .ps-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+    height: 35vh;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+  .overlay {
+    background-color: rgb(236, 82, 66, 0.7);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+  }
+
+  .ps-year {
+    margin-bottom: 0;
+  }
+
+  .ps-img-2 {
+    background-image: url("./assets/telethon-2.jpg");
+  }
+
+  .psu-hline
+  {
+    width: 60px;
+    color: #ec5242;
+    background-color: #ec5242;
+    border: 1px solid #ec5242;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+.home-btn-cont {
+  display: none;
+}
+
+#partners{
+  display: flex;
+}
+
+#footer{
+  display: flex;
+}
+}

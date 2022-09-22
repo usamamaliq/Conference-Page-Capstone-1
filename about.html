@@ -10,30 +10,47 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">    
     <title>About Page</title>
 </head>
-<body>
+<body> 
+  <div class="header">
+    <ul class="h-list">
+      <li class=" h-list-items"><i class="fa fa-facebook" ></i></li>
+      <li class=" h-list-items"><i class="fa fa-twitter" ></i></li>
+      <li class=" h-list-items"><a href="#"></a>English</li>
+      <li class=" h-list-items"><a href="#"></a>My Page</li>
+      <li class=" h-list-items i1"><a href="#"></a>Logout</li>
+    </ul>
+  </div>
     <section class="about-page">
-        <div id="menu" class="ham-icon">
-          <i class="fa fa-bars fa-2x" id="ham-icon" ></i>
+      <div id="menu" class="ham-icon">
+        <i class="fa fa-bars fa-2x" id="ham-icon" ></i>
+      </div>
+      
+      <div class="menu-desktop">
+        <div class="logo-main">
+          <a href="./index.html"> <img src="./assets/logo.png" alt=""></a>
         </div>
-        <div class="menu-desktop">
-          <div class="closeBtn-container">
-            <img class="closeBtn" src="./assets/Icon-close.svg" alt="close menu button">
-            </div>
-            <ul class="menu">
-              <li class="menu-item" ><a href="#">About</a></li>
-              <li class="menu-item"><a href="#">Program</a></li>
-              <li class="menu-item"><a href="#">Join</a></li>
-              <li class="menu-item"><a href="#">Sponsor</a></li>
-            <li class="menu-item"><a href="#">Campaign</a></li>
-            </ul>
-        </div>
-        <div class="a-text-cont">
+        <div class="closeBtn-container">
+          <img class="closeBtn" src="./assets/Icon-close.svg" alt="close menu button">
+          </div>
+          <ul class="menu">
+            <li class="menu-item" ><a href="./about.html">About</a></li>
+            <li class="menu-item"><a href="#">Program</a></li>
+            <li class="menu-item"><a href="#">Join</a></li>
+            <li class="menu-item"><a href="#">Sponsor</a></li>
+          <li class="menu-item"><a href="#">Campaign</a></li>
+          </ul>
+      </div>
+      <div class="home-btn-cont">
+      <a href="./index.html"><i class="fa fa-home home-btn black" aria-hidden="true" ></i></a>
+    </div>  
+      <div class="a-text-cont">
     <h2 class="a-title-txt">
         Hello! Sharing World
       </h2>
       <h1 class="a-title">
         FLOOD RELIEF <br> GLOBAL TELETHON <br> 2022
       </h1>
+      <hr class="p-hline">
       <div class="a-bg-text">
       <p class="detail-text" id="a-detail-text">
          This Global telethon is organized to collect donation for flood affectees in Pakistan.
@@ -42,7 +59,7 @@
          The funds collected through this telethon will be distributed among the flood victims by a committee headed by Insaf Federation.      </p>
     </div>
     <p class="black contact-text">Please contact us per Email for any further questions 
-      <br>about CC Global Summit 2022!</p>
+      about CC Global Summit 2022!</p>
     <p class="black email-text">telethon2022@insaf.com</p>
         </div>  
   </section>
@@ -70,6 +87,7 @@
           Take a look at the last two Telethons which took place
           in Pakistan.
         </p>
+        <div class="ps-img-cont">
         <div class="ps-img ps-img-1">
           <div class="overlay">
             <h2 class="white ps-year">
@@ -90,8 +108,9 @@
           </h2>
       </div>
     </div>
+  </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
       <h2 class="grey p-title">
         Partner
       </h2>
@@ -103,10 +122,10 @@
       
       </div>
     </section>
-    <section class="footer">
+    <section class="footer" id="footer">
       <img class="f-img" src="./assets/logo.png" alt="Telethon Logo">
       <p class="f-text">
-        2022 Global Telethon Pakistan <br> All Rights Reserved
+        2022 Global Telethon Pakistan. All Rights Reserved
       </p>
     </section>
     <script src="menu.js"></script>
