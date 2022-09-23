@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Portfolio](https://usamamaliq.github.io/Conference-Page-Capstone-1/)
+[Click to view Project](https://usamamaliq.github.io/Conference-Page-Capstone-1/)
 
 ## Screenshot of project
 
