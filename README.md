@@ -14,7 +14,7 @@
 
 ## Screenshot of project
 
-![screencapture-127-0-0-1-5502-2022-09-13-02_18_16](https://user-images.githubusercontent.com/101483956/189761088-f0275640-2c40-408e-bbc7-1be2252574c7.png)
+![Website-Screenshot](https://user-images.githubusercontent.com/101483956/191947065-192b56c4-64c9-469e-9782-7df4423115e0.png)
 
 ## Getting Started
 
