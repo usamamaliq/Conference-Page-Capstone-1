@@ -35,7 +35,7 @@ const speakersInfo = [
         gridClass: 'fs5',
         name: 'Faisal Eidhi',
         profession: "Director Eidhi Foundation",
-        image: './assets/faisal-eidhi.jpg',
+        image: './assets/faisal-eidhii.jpg',
         detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi explicabo enim libero rem, vi',
       },
 
@@ -43,7 +43,7 @@ const speakersInfo = [
         gridClass: 'fs6',
         name: 'Dr. Muhammad Ramzan Chhipa',
         profession: "Founder of Chhipa Welfare Association",
-        image: './assets/ramzan-chhipa.jpg',
+        image: './assets/ramzan-chhipaa.jpg',
         detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi explicabo enim libero rem, vi',
       }
 ];
