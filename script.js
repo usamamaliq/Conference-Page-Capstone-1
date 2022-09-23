@@ -84,6 +84,12 @@ function myFunction(x) {
               `;
           }
   } else {
+    featuredSpeakers.innerHTML = `<div class="fs-title-cont">
+          <h2 class="black fs-title">
+            Featured Speakers
+          </h2>
+          <hr class=" fs-hline">
+        </div>`;
     for (let i = 0; i < speakersInfo.length ; i += 1) {
       featuredSpeakers.innerHTML += `
         <div class="fs-cont ${speakersInfo[i].gridClass}">
